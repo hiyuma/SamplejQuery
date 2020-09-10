@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  width: 100%;
 }
 
 a {
@@ -15,7 +16,7 @@ a {
 }
 
 .container {
-  width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -112,11 +113,11 @@ header {
 .modal {
   position: absolute;
   top: 20%;
-  left: 34%;
+  left: 25%;
   background-color: #e6ecf0;
-  padding: 20px 0 40px;
+  padding: 5px 0 10px;
   border-radius: 10px;
-  width: 450px;
+  width: 50%;
   height: auto;
   text-align: center;
 }
@@ -140,7 +141,7 @@ header {
 }
 
 #signup-form input {
-  width: 320px;
+  width: 80%;
   margin-bottom: 20px;
   font-size: 12px;
   padding: 12px 12px;
@@ -150,7 +151,8 @@ header {
 
 #submit-btn {
   display: inline-block;
-  padding: 14px 140px;
+  width:80%;
+  padding: 10px;
   background-color: #5dca88;
   border: none;
   border-radius: 3px;
@@ -215,7 +217,7 @@ header {
 }
 
 #faq-list {
-  width: 500px;
+  width: 100%;
   margin: 0 auto;
   padding: 0;
   list-style: none;
@@ -285,4 +287,18 @@ footer p {
 
 footer {
   padding-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 100%;
+    margin: 30px auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    width: 100%;
+    margin: 35px auto;
+  }
 }
